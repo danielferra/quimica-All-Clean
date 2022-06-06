@@ -1,0 +1,268 @@
+/* variables */
+.fondo-nav {
+  background-color: #0769e9;
+}
+
+.jumbotron {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: #003862;
+  text-shadow: 1px 1px 5px #fff;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  background-color: #003862;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.nosotros {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(114, 68, 68);
+}
+
+.row {
+  height: 500px;
+}
+
+.nleft {
+  background-color: aqua;
+  background-image: url(../images/productos4.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.nrigth {
+  background-color: #fff;
+  padding: 20px;
+  color: #333;
+}
+
+.nrigth h3 {
+  text-align: center;
+  color: #003862;
+  text-decoration: underline;
+}
+
+.nrigth p {
+  text-align: justify;
+}
+
+.nrigth p::first-letter {
+  font-size: 30px;
+  color: #0769e9;
+  text-shadow: 0 0 5px #333;
+}
+
+.newsletter {
+  width: 100%;
+  min-height: 80px;
+  background-color: #333;
+  padding: 50px;
+}
+
+.newsletter h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.newsletter input {
+  width: 100%;
+  height: 40px;
+  border: 5px solid #0769e9;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+.newsletter input:focus {
+  color: #0769e9;
+  background-color: #333;
+}
+
+.newsletter input::placeholder {
+  color: #0769e9;
+}
+
+.card a:hover {
+  background-color: #333;
+}
+
+footer {
+  margin-top: 30pxpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003862;
+  flex-direction: column;
+}
+
+footer .social-icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .social-icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social-icon li a,
+footer .menu li a {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social-icon li a:hover {
+  transform: translatey(-11px);
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.footer contacto {
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.form-register {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  margin-bottom: 25px;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.jumbotron-acercade {
+  background-image: url(../images/inicio.png);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: #003862;
+  text-shadow: 1px 1px 5px #fff;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron-acercade p {
+  font-size: 24px;
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-acercade h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-acercade {
+  margin: auto;
+  padding-top: 15px;
+}
+
+.jumbotron-nuestrosProductos {
+  background-image: url(../images/laboratorio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  text-shadow: 1px 1px 5px #fff;
+  border-radius: 0;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.footer-nuestrosProductos {
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
