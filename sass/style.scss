@@ -4,8 +4,7 @@
 
 @import "footer";
 
-
-.form-register{
+@mixin form-register {
     width: 400px;
     background-color: $backColor4;
     padding: 30px;
@@ -16,6 +15,9 @@
     color: $whiteColor;
     box-shadow: 7px 13px 37px $color2;
     margin-bottom: 25px;
+}
+.form-register{
+   @include form-register;
 }
 .form-register h4{
     font-size: 22px;

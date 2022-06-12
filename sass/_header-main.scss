@@ -1,7 +1,7 @@
 .fondo-nav{
     background-color: $baseColor;
 }
-.jumbotron{
+@mixin jumbotron {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -10,6 +10,9 @@
     text-shadow: 1px 1px 5px $heximalColor;
     border-radius: 0;
     margin-bottom: 0;
+}
+.jumbotron{
+   @include jumbotron;
 }
 .jumbotron{
     p{
